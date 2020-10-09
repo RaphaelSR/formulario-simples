@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Doar.PA</title>
+</head>
+<body>
+
+
+    <div id="user-form">
+        <header>
+          <img src="./assets/logo.png" alt="doar.pa" />
+        </header>
+        
+        <form>
+          <h1>Cadastro do <br /> doador</h1>
+  
+          <fieldset>   
+
+            <fieldset>
+              <div class="field-group">
+            <div class="field">
+              <input type="checkbox" id="nacionalidade" name="nacionalidade"
+                     checked>
+              <label for="nacionalidade">Brasileiro</label>
+            </div>
+            <div class="field">
+              <input type="checkbox" id="estrangeiro" name="estrangeiro"
+                     >
+              <label for="estrangeiro">Estrangeiro/Foreing</label>
+            </div>
+          </div>
+        </fieldset>
+  
+            <div class="field">
+              <label htmlFor="name">Nome completo</label>
+              <input 
+                type="text"
+                name="name"
+                id="name"
+              />
+            </div>
+  
+            <div class="field">
+              <div class="field">
+                <label htmlFor="email">E-mail</label>
+                <input 
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </div>
+
+                <div class="field">
+                  <div class="field">
+                    <label htmlFor="password">Senha</label>
+                    <input 
+                      type="password"
+                      name="password"
+                      id="password"
+                    />
+              </div>
+
+              <div class="field">
+                <label htmlFor="cpf">CPF</label>
+                <input 
+                  type="number"
+                  name="cpf"
+                  id="cpf"
+                />
+              </div>
+
+              <div class="field">
+                <label htmlFor="date">Data de nascimento</label>
+                <input 
+                  type="date"
+                  name="date"
+                  id="date"
+                />
+              </div>
+
+
+              <fieldset>
+                <div class="field-group">                            
+                <div class="field">
+                  <select  id="uf">
+                    <option value="0" selected>UF</option> 
+                    <option value="1" >Valor 1</option>
+                    <option value="2">Valor 2</option>
+                  </select>
+                </div>
+                <div  class="field" >
+                  <select id="municipio">
+                    <option value="0" selected>Município</option> 
+                    <option value="1" >Valor 1</option>
+                    <option value="2">Valor 2</option>
+                  </select>
+                </div>         
+              </div>
+            </fieldset>
+
+             
+              <div class="field">
+                <label htmlFor="endereço">Endereço</label>
+                <input 
+                  type="text"
+                  name="endereço"
+                  id="endereço"
+                />
+              </div>
+
+
+              <div class="field">
+                <label htmlFor="numero">Número</label>
+                <input 
+                  type="number"
+                  name="numero"
+                  id="numero"
+                />
+              </div>
+
+
+              <div class="field">
+                <label htmlFor="complemento">Complemento</label>
+                <input 
+                  type="text"
+                  name="complemento"
+                  id="complemento"
+                />
+              </div>
+
+
+              <div class="field">
+                <label htmlFor="bairro">Bairro</label>
+                <input 
+                  type="text"
+                  name="bairro"
+                  id="bairro"
+                />
+              </div>
+
+              <div class="field">
+                <label htmlFor="cep">Cep</label>
+                <input 
+                  type="number"
+                  name="cep"
+                  id="cep"
+                />
+              </div>
+
+
+              <div class="field">
+                <label htmlFor="telefone">Telefone</label>
+                <input 
+                  type="number"
+                  name="telefone"
+                  id="telefone"
+                />
+              </div>    
+              
+              
+              <button type="submit">
+                Finalizar cadastro
+              </button>
+
+      </form>
+    </div>   
+    
+     </body>
+  </html>
